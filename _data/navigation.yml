@@ -5,7 +5,7 @@
 - name: Home
   link: /
   new_window: false
-  highlight: false
+  highlight: true
 - name: About
   link: /about/
   new_window: false
@@ -13,7 +13,7 @@
 - name: Contact
   link: /contact/
   new_window: false
-  highlight: true
+  highlight: false
 # - name: Login
   # link: /
   # new_window: true
