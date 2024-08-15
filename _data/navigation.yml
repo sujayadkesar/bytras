@@ -1,7 +1,7 @@
-# - name: Pricing
-  # link: /pricing/
-  # new_window: false
-  # highlight: false
+- name: gallary
+  link: /sales/2024/08/12/gallary/
+  new_window: false
+  highlight: false
 - name: Home
   link: /
   new_window: false
