@@ -15,8 +15,8 @@
   #   link: /
   #   new_window: true
   - name: Docs
-    link: /
-    new_window: false
+    link: /images/BytrasCatalogue.pdf
+    new_window: true
   - name: Email
     link: the.bytras@gmail.com
     new_window: true
