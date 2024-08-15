@@ -1,8 +1,8 @@
 - links:
   # - name: Pricing
   #   link: /pricing/
-  # - name: Blog
-    # link: /blog/
+  - name: Products
+    link: /sales/2024/08/12/gallary/
   - name: About
     link: /about/
   - name: Contact
@@ -17,9 +17,9 @@
   - name: Docs
     link: /
     new_window: false
-  # - name: Status
-  #   link: /
-  #   new_window: true
+  - name: Email
+    link: the.bytras@gmail.com
+    new_window: true
 - links:
   - name: Instagram
     link: https://www.instagram.com/thebytras/?igsh=MW92c3VlYTYwdTUyNA%3D%3D&utm_source=qr
@@ -33,7 +33,7 @@
     link: https://youtube.com/@bytraseco?si=heBLvnmY4zxeuFTR
     social_icon: YouTube
     new_window: true
-  - name: Email
-    link: the.bytras@gmail.com
-    social_icon: envelope
-    new_window: true
+  # - name: Email
+  #   link: the.bytras@gmail.com
+  #   social_icon: envelope
+  #   new_window: true

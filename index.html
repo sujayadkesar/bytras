@@ -12,7 +12,28 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 			<img src="{{ site.baseurl }}/images/1.png" alt="Screenshot" class="screenshot editable" />
 		</div>
 	</div>
-</section>
+
+	<!-- Slider Container -->
+	<div class="slider-container">
+		<div class="slider-wrapper">
+			<div class="slider-slide">
+				<img src="{{ site.baseurl }}/images/slider1.jpg" alt="Slider Image 1">
+			</div>
+			<div class="slider-slide">
+				<img src="{{ site.baseurl }}/images/slider2.jpg" alt="Slider Image 2">
+			</div>
+			<div class="slider-slide">
+				<img src="{{ site.baseurl }}/images/slider3.jpg" alt="Slider Image 3">
+			</div>
+		</div>
+		<!-- Add navigation buttons if necessary -->
+		<div class="slider-nav">
+			<button class="prev">Previous</button>
+			<button class="next">Next</button>
+		</div>
+	</div>
+</section>	
+
 
 <div class="content" id="explore">
 	<section>
@@ -71,3 +92,71 @@ background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, F
 		<div class="button alt"><a href="{{ site.baseurl }}/contact/">Make your first Order Today!</a></div>
 	</section>
 </div>
+
+<style>
+	.hero .slider-container {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+
+.hero .slider-wrapper {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.hero .slider-slide {
+	min-width: 100%;
+	box-sizing: border-box;
+}
+
+.hero .slider-slide img {
+	width: 100%;
+	display: block;
+}
+
+.hero .slider-nav {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-50%);
+}
+
+.hero .slider-nav button {
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	border: none;
+	padding: 10px;
+	cursor: pointer;
+}
+
+</style>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function() {
+	const sliderWrapper = document.querySelector('.hero .slider-wrapper');
+	const slides = document.querySelectorAll('.hero .slider-slide');
+	const prevBtn = document.querySelector('.hero .prev');
+	const nextBtn = document.querySelector('.hero .next');
+	let currentIndex = 0;
+
+	function showSlide(index) {
+		sliderWrapper.style.transform = `translateX(-${index * 100}%)`;
+	}
+
+	prevBtn.addEventListener('click', function() {
+		currentIndex = (currentIndex > 0) ? currentIndex - 1 : slides.length - 1;
+		showSlide(currentIndex);
+	});
+
+	nextBtn.addEventListener('click', function() {
+		currentIndex = (currentIndex < slides.length - 1) ? currentIndex + 1 : 0;
+		showSlide(currentIndex);
+	});
+});
+
+</script>
