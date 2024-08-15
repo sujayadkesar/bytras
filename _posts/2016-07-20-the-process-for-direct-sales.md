@@ -6,30 +6,193 @@ categories:
 author_staff_member: anna
 ---
 
-Direct selling is the marketing and selling of products directly to consumers away from a fixed retail location. Peddling is the oldest form of direct selling. Modern direct selling includes sales made through the party plan, one-on-one demonstrations, and other personal contact arrangements as well as internet sales.
+<section  class="hm-gradient">
 
-![Checkmate](https://source.unsplash.com/random/1500x1145)
+        
+        <!--MDB Carousels-->
+        <div class="container mt-4">
 
-## Textbook definition
+            <div class="text-center darken-grey-text mb-4">
+                <h1 class="font-bold mt-4 mb-3 h5">Built with Material Design for Bootstrap 4</h1>
+                <a class="btn btn-danger btn-md" href="https://mdbootstrap.com/material-design-for-bootstrap/" target="_blank">Free download<i class="fa fa-download pl-2"></i></a>
+            </div>
 
-A textbook definition is: "The direct personal presentation, demonstration, and sale of products and services to consumers, usually in their homes or at their jobs."
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-1z" class="carousel slide carousel-fade mb-5" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <!--First slide-->
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(148).jpg" alt="First slide">
+                    </div>
+                    <!--/First slide-->
+                    <!--Second slide-->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(150).jpg" alt="Second slide">
+                    </div>
+                    <!--/Second slide-->
+                    <!--Third slide-->
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(149).jpg" alt="Third slide">
+                    </div>
+                    <!--/Third slide-->
+                </div>
+                <!--/.Slides-->
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
+            <!--Carousel Wrapper-->
+            <div id="carousel-example-2" class="carousel slide carousel-fade mb-5" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="view hm-white-slight">
+                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(147).jpg" alt="First slide">
+                            <div class="mask"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">First title</h3>
+                            <p>First text</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view hm-white-slight">
+                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(151).jpg" alt="Second slide">
+                            <div class="mask"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Second title</h3>
+                            <p>Second text</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view hm-white-slight">
+                            <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(152).jpg" alt="Third slide">
+                            <div class="mask"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <h3 class="h3-responsive">Third title</h3>
+                            <p>Third text</p>
+                        </div>
+                    </div>
+                </div>
+                <!--/.Slides-->
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <!--/.Controls-->
+            </div>
+            <!--/.Carousel Wrapper-->
+            <!--Carousel Wrapper-->
+            <div id="video-carousel-example" class="carousel slide carousel-fade" data-ride="carousel">
+                <!--Indicators-->
+                <ol class="carousel-indicators">
+                    <li data-target="#video-carousel-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#video-carousel-example" data-slide-to="1"></li>
+                    <li data-target="#video-carousel-example" data-slide-to="2"></li>
+                </ol>
+                <!--/.Indicators-->
+                <!--Slides-->
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <!--Mask color-->
+                        <div class="view hm-cyan-slight">
+                            <!--Video source-->
+                            <video class="video-fluid" autoplay loop>
+                                <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
+                            </video>
+                            <div class="full-bg-img"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view hm-yellow-slight">
+                            <!--Video source-->
+                            <video class="video-fluid" autoplay loop>
+                                <source src="https://mdbootstrap.com/img/video/Sail-Away.mp4" type="video/mp4" />
+                            </video>
+                            <div class="full-bg-img"></div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!--Mask color-->
+                        <div class="view hm-white-slight">
+                            <!--Video source-->
+                            <video class="video-fluid" autoplay loop>
+                                <source src="https://mdbootstrap.com/img/video/Crossroad.mp4" type="video/mp4" />
+                            </video>
+                            <div class="full-bg-img"></div>
+                        </div>
+                        <!--Caption-->
+                        <div class="carousel-caption">
+                            <div class="animated fadeInDown">
+                                <h3 class="h3-responsive">Let's go!</h3>
+                                <p>And sing a song</p>
+                            </div>
+                        </div>
+                        <!--Caption-->
+                    </div>
+                </div>
+                <!--/.Slides-->
+                <!--Controls-->
+                <a class="carousel-control-prev" href="#video-carousel-example" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#video-carousel-example" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+                <!--/.Controls-->
+            </div>
+            <!--Carousel Wrapper-->
+          
+            <hr class="my-4">
+          
+            <div class="text-center darken-grey-text mb-4">
+                <h3 class="font-bold mb-3">Here you can find more Carousels:</h3>
+                <a class="btn btn-danger" href="https://mdbootstrap.com/javascript/carousel/" target="_blank">Bootstrap carousel</a>
+            </div>
 
-## How effective is direct selling?
-
-Industry representative, the World Federation of Direct Selling Associations (WFDSA), reports that its 59 regional member associations accounted for more than US$183 billion in retail sales in 2014, through the activities of more than 62 million independent sales representatives. The United States Direct Selling Association (DSA) reported that in 2000, 55% of adult Americans had at some time purchased goods or services from a direct selling representative and 20% reported that they were currently(6%) or had been in the past(14%) a direct selling representative.
-
-![Office](https://source.unsplash.com/random/1500x1146)
-
-According to the WFDSA, consumers benefit from direct selling because of the convenience and service it provides, including personal demonstration and explanation of products, home delivery, and generous satisfaction guarantees. In contrast to franchising, the cost for an individual to start an independent direct selling business is typically very low with little or no required inventory or other cash commitments to begin.
-
-Most direct selling associations around the world require their members to abide by a code of conduct towards a fair partnership both with customers and salesmen...
-
-Most national direct selling associations are represented in the World Federation of Direct Selling Associations (WFDSA).
-
-## How's it different to marketing?
-
-Direct selling is distinct from direct marketing because it is about individual sales agents reaching and dealing directly with clients. Direct marketing is about business organizations seeking a relationship with their customers without going through an agent/consultant or retail outlet.
-
-Direct selling consists of two main business models: single-level marketing, in which a direct seller makes money by buying products from a parent organization and selling them directly to customers, and multi-level marketing (also known as network marketing or person-to-person marketing), in which the direct seller makes money from both direct sales to customers and by sponsoring new direct sellers and earning a commission from their efforts.
-
-![Raspberries](https://source.unsplash.com/random/1500x1147)
+        </div>
+        <!--MDB Carousels-->
+        <style>
+       .hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+} 
+        </style>
+</section>
