@@ -35,5 +35,5 @@
     new_window: true
   - name: Email
     link: the.bytras@gmail.com
-    social_icon: Gmail
+    social_icon: envelope
     new_window: true
