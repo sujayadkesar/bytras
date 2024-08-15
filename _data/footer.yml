@@ -14,7 +14,7 @@
   # - name: Sign Up
   #   link: /
   #   new_window: true
-  - name: Docs
+  - name: Catalogue
     link: /images/BytrasCatalogue.pdf
     new_window: true
   - name: Email
