@@ -53,6 +53,23 @@ overflow: hidden;">
 		</div>
 	</section>
 
+
+	<section class="image-gallery" style="background: #FFEFBA; padding: 20px;">
+		<div class="image-container">
+			<img src="https://framerusercontent.com/images/ocNrAVrLob3aU23u4pVnDcplBQA.png?scale-down-to=512" alt="Image 1" class="gallery-image" />
+			<p class="image-description">Description for Image 1</p>
+		</div>
+		<div class="image-container">
+			<img src="https://framerusercontent.com/images/rs107E6amVqRC4vBAj5S4FRAg.png?scale-down-to=512" alt="Image 2" class="gallery-image" />
+			<p class="image-description">Description for Image 2</p>
+		</div>
+		<div class="image-container">
+			<img src="https://framerusercontent.com/images/qyrcgrW7SV9jJgGrx8DEAccNzU.png?scale-down-to=512" alt="Image 3" class="gallery-image" />
+			<p class="image-description">Description for Image 3</p>
+		</div>
+	</section>
+	
+
 	<section class="testimonial">
 		<div class="container flex">
 			<div class="testimonial-block">
@@ -73,3 +90,30 @@ overflow: hidden;">
 		<div class="button alt"><a href="{{ site.baseurl }}/contact/">Make your first Order Today!</a></div>
 	</section>
 </div>
+
+<style>
+	.image-gallery {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	
+	.image-container {
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	
+	.gallery-image {
+		width: 100%;
+		max-width: 600px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+		border-radius: 8px;
+	}
+	
+	.image-description {
+		margin-top: 10px;
+		font-size: 16px;
+		color: #333;
+	}
+	</style>
+	
