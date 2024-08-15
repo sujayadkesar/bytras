@@ -93,7 +93,12 @@ overflow: hidden;">
 		</div>
 	</section>
 
-	<section class="bottom-cta" style="background-color: beige;">
+	<section class="bottom-cta"  style="background: #FFEFBA;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	height: 100vh;
+	position: relative;
+	overflow: hidden;">
 		<h2 class="editable"><strong>Intrested?</strong></h2>
 		<div class="button alt"><a href="{{ site.baseurl }}/contact/">Make your first Order Today!</a></div>
 	</section>
